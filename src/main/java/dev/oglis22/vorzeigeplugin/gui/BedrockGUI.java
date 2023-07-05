@@ -21,6 +21,7 @@ public class BedrockGUI {
     public static void test(Player player, CustomFormResponse response) {
         Integer selectedWarp = response.getDropdown(0);
         player.teleport(FileManager.getAllWarps().get(selectedWarp));
-        player.sendMessage("Ausgewählter Warp: " + FileManager.getNameofWarps().get(selectedWarp));
+        String message = Config.fileConfiguration.getString("WarpTeleportMessage").replaceAll("%Warp%", FileManager.getNameofWarps().get(selectedWarp));
+        player.sendMessage(Config.fileConfiguration.getString("Prefix") + message);
     }
 }
