@@ -13,7 +13,7 @@ public class BedrockGUI {
         FloodgatePlayer bedrockPlayer = FloodgateApi.getInstance().getPlayer(player.getUniqueId());
         bedrockPlayer.sendForm(
                 CustomForm.builder()
-                        .title("Warp Teleporter")
+                        .title("Oglis Warps")
                         .dropdown("Wähle deinen Warp", FileManager.getNameofWarps())
                         .validResultHandler(response -> test(player, response))
         );
