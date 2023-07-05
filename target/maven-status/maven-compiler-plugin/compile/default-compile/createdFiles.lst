@@ -1,0 +1,13 @@
+dev\oglis22\vorzeigeplugin\VorzeigePlugin.class
+dev\oglis22\vorzeigeplugin\listeners\PlayerHandler.class
+dev\oglis22\vorzeigeplugin\commands\SetWarpCommand.class
+dev\oglis22\vorzeigeplugin\commands\RemoveWarpCommand.class
+dev\oglis22\vorzeigeplugin\utils\FileManager.class
+dev\oglis22\vorzeigeplugin\gui\BedrockGUI.class
+dev\oglis22\vorzeigeplugin\commands\SetSpawnCommand.class
+dev\oglis22\vorzeigeplugin\utils\ItemBuilder.class
+dev\oglis22\vorzeigeplugin\utils\Config.class
+dev\oglis22\vorzeigeplugin\gui\JavaGUI.class
+dev\oglis22\vorzeigeplugin\listeners\ClickEvent.class
+dev\oglis22\vorzeigeplugin\commands\SpawnCommand.class
+dev\oglis22\vorzeigeplugin\commands\WarpCommand.class

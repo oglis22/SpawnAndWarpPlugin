@@ -1,0 +1,11 @@
+name: VorzeigePlugin
+version: '${project.version}'
+main: dev.oglis22.vorzeigeplugin.VorzeigePlugin
+api-version: 1.19
+
+commands:
+  setspawn:
+  spawn:
+  setwarp:
+  warp:
+  removewarp:
